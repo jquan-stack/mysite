@@ -15,6 +15,10 @@ const handler = (req: Request) => html({
     >
       <h1 class="text-4xl font-bold">Hello World!</h1>
       <p class="mt-2 text-lg text-center text-gray-600">Develop Locally, Deploy Globally</p>
+      <body>
+	<h1>Welcome to the page!</h1>
+	<button onclick="remember()">Remember Joseph's mom</button>
+</body>
       <footer class="fixed bottom-8 w-full h-6 flex items-center justify-center gap-2 text-gray-800">
         Powered by
         <a
