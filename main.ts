@@ -59,7 +59,7 @@ const bot: Telegraf<Context<Update>> = new Telegraf(token);
 
 const str = Deno.env.get('whitelist');
 
-const whiteListed = 
+const whiteListed = str.split(",");
 
 bot.start(async (ctx) => {
   if(ctx){
